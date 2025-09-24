@@ -1,4 +1,49 @@
 body{
     background-color: hsl(227, 75%, 14%);
     font-family: "Noto Sans", serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.topHeader{
+    width: 95%;
+    margin: 20px 25px 0 25px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: hsl(226, 25%, 17%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 25px;
+}
+.topHeader button {
+    margin-right: 25px;
+    border-radius: 10px;
+    background-color: hsl(225, 23%, 24%);
+    height: 40px;
+    width: 40px;
+    border: none;
+}
+
+.hero{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.filterButton button{
+    border-radius: 20px;
+    background-color: hsl(225, 23%, 24%);
+    height: 40px;
+    min-width: 60px;
+    width: auto;
+    border: none;
+}
+.hero span{
+    margin-left: 25px;
+    font-size:  26px;
+    font-family: "Noto Sans", serif;
 }
